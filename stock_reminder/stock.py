@@ -4,4 +4,7 @@ class Stock:
         self.price = None
     
     def update(self, timestamp, price):
+        if price < 0:
+            raise ValueError("price should not be negative")
         self.price = price
+
