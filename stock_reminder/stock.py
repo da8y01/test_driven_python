@@ -12,3 +12,5 @@ class Stock:
             raise ValueError("price should not be negative")
         self.price_history.append(price)
 
+    def is_increasing_trend(self):
+        return self.price_history[-3] < self.price_history[-2] < self.price_history[-1]
