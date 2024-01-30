@@ -22,3 +22,11 @@ Submitting contributions
 ------------------------
 
 If you would like to submit changes to this repository, checkout the *contrib* branch, make changes and submit a pull request. I will be happy to merge the changes in.
+
+
+CUSTOM NOTES
+-----
+
+https://stackoverflow.com/questions/72032032/importerror-cannot-import-name-iterable-from-collections-in-python
+AttributeError: module 'collections' has no attribute 'Iterable'
+You can use Iterable from collections.abc instead
