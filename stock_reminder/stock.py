@@ -2,6 +2,7 @@ import bisect
 import collections
 from enum import Enum
 from datetime import timedelta
+from .timeseries import TimeSeries
 
 
 PriceEvent = collections.namedtuple("PriceEvent", ["timestamp", "price"])
@@ -19,18 +20,24 @@ class Stock:
     def __init__(self, symbol):
         self.symbol = symbol
         self.price_history = []
+        self.history = TimeSeries()
 
     @property
     def price(self):
-        return self.price_history[-1].price if self.price_history else None
+        try:
+           return self.history[-1].value
+        except IndexError:
+            return None
 
     def update(self, timestamp, price):
         if price < 0:
             raise ValueError("price should not be negative")
         bisect.insort_left(self.price_history, PriceEvent(timestamp, price))
+        self.history.update(timestamp, price)
 
     def is_increasing_trend(self):
-        return self.price_history[-3].price < self.price_history[-2].price < self.price_history[-1].price
+        return self.history[-3].value < \
+            self.history[-2].value < self.history[-1].value
     
     def _get_closing_price_list(self, on_date, num_days):
         closing_price_list = []
