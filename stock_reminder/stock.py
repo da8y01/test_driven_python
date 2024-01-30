@@ -51,8 +51,8 @@ class Stock:
                                             prev_long_term_ma,
                                             short_term_ma,
                                             long_term_ma):
-        return prev_long_term_ma > prev_short_term_ma \
-            and long_term_ma < short_term_ma
+        return prev_short_term_ma < prev_long_term_ma \
+            and short_term_ma > long_term_ma
 
     def _is_short_term_crossover_above_to_below(self, prev_short_term_ma,
                                                 prev_long_term_ma,
