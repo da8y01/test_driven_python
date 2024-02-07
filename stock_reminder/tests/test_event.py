@@ -1,17 +1,18 @@
 import unittest
-from ..event import Event, Mock
+from ..event import Event
+from unittest import mock
 
 class EventTest(unittest.TestCase):
     def test_a_listener_is_notified_when_an_event_is_raised(self):
-        listener = Mock()
+        listener = mock.Mock()
         event = Event()
         event.connect(listener)
         event.fire()
         self.assertTrue(listener.called)
 
     def test_a_listener_is_passed_right_parameters(self):
-        listener = Mock()
+        listener = mock.Mock()
         event = Event()
         event.connect(listener)
         event.fire(5, shape="square")
-        self.assertEqual(((5, ), {"shape": "square"}), listener.params)
+        listener.assert_called_with(5, shape="square")
