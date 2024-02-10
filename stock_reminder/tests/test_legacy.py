@@ -14,7 +14,16 @@ class TestAlertProcessor(AlertProcessor):
 class AlertProcessorTest(unittest.TestCase):
     @mock.patch("builtins.print")
     def test_processor_characterization_1(self, mock_print):
-        AlertProcessor()
+        mock_reader = mock.MagicMock()
+        mock_reader.parse_file.return_value = [
+            ('GOOG', datetime(2014, 2, 11, 14, 10, 22, 130000), 5),
+            ('AAPL', datetime(2014, 2, 11, 00, 00, 00, 130000), 8),
+            ('GOOG', datetime(2014, 2, 11, 14, 11, 22, 130000), 3),
+            ('GOOG', datetime(2014, 2, 11, 14, 12, 22, 130000), 15),
+            ('AAPL', datetime(2014, 2, 11, 00, 00, 00, 130000), 10),
+            ('GOOG', datetime(2014, 2, 11, 14, 15, 22, 130000), 21)
+        ]
+        AlertProcessor(reader=mock_reader)
         mock_print.assert_has_calls([mock.call("AAPL", 8),
                                      mock.call("GOOG", 15),
                                      mock.call("AAPL", 10),
