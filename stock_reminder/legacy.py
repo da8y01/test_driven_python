@@ -4,16 +4,19 @@ from .stock import Stock
 from .rule import PriceRule
 
 class AlertProcessor:
-    def __init__(self, autorun=True):
-        self.exchange = {"GOOG": Stock("GOOG"), "AAPL": Stock("AAPL")}
+    def __init__(self, autorun=True, exchange=None):
+        if exchange is None:
+            self.exchange = {"GOOG": Stock("GOOG"), "AAPL": Stock("AAPL")}
+        else: 
+            self.exchange = exchange
         rule_1 = PriceRule("GOOG", lambda stock: stock.price > 10)
         rule_2 = PriceRule("AAPL", lambda stock: stock.price > 5)
         self.exchange["GOOG"].updated.connect(
             lambda stock: print(stock.symbol, stock.price) \
-                        if rule_1.matches(self.exchange) else None)
+                if rule_1.matches(self.exchange) else None)
         self.exchange["AAPL"].updated.connect(
             lambda stock: print(stock.symbol, stock.price) \
-                        if rule_2.matches(self.exchange) else None)
+                if rule_2.matches(self.exchange) else None)
         if autorun:
             self.run()
 
