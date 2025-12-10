@@ -1,0 +1,494 @@
+<testsuite name="nose2-junit" errors="0" failures="0" skipped="0" tests="164" time="0.050">
+  <testcase timestamp="2025-12-10T17:23:51.597150" time="0.005002" classname="stock_reminder.tests.test_action.EmailActionTest" name="test_connection_closed_after_sending_mail">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.602152" time="0.001265" classname="stock_reminder.tests.test_action.EmailActionTest" name="test_connection_closed_if_send_gives_error">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.603417" time="0.001003" classname="stock_reminder.tests.test_action.EmailActionTest" name="test_email_is_sent_to_the_right_server">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.604420" time="0.002524" classname="stock_reminder.tests.test_action.EmailActionTest" name="test_email_is_sent_when_action_is_executed">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.606944" time="0.001230" classname="stock_reminder.tests.test_action.EmailActionTest" name="test_email_is_sent_with_the_right_subject">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.608174" time="0.000000" classname="stock_reminder.tests.test_action.PrintActionTest" name="test_executing_action_prints_message">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.608174" time="0.001833" classname="stock_reminder.tests.test_alert.AlertTest" name="test_action_is_executed_when_rule_matches">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.611011" time="0.001264" classname="stock_reminder.stock.Stock" name="is_increasing_trend">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.612275" time="0.001163" classname="stock_reminder.stock.Stock" name="price">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.613438" time="0.001654" classname="stock_reminder.stock.Stock" name="update">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.615092" time="0.001737" classname="doctest" name="readme_txt">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.616830" time="0.000000" classname="stock_reminder.tests.test_event.EventTest" name="test_a_listener_is_notified_when_an_event_is_raised">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.616830" time="0.000000" classname="stock_reminder.tests.test_event.EventTest" name="test_a_listener_is_passed_right_parameters">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.616830" time="0.001327" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_1">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.618157" time="0.002220" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_2">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.620377" time="0.000000" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_3">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.620377" time="0.000000" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_4">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.620377" time="0.001453" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_5">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.621829" time="0.000000" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_6">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.621829" time="0.001628" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_7">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.623457" time="0.000000" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_8">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.623457" time="0.000000" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_characterization_9">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.623457" time="0.001305" classname="stock_reminder.tests.test_legacy.AlertProcessorTest" name="test_processor_gets_values_from_reader">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.624763" time="0.000000" classname="stock_reminder.tests.test_levelsorder.Class1Test" name="test_1">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.624763" time="0.001007" classname="stock_reminder.tests.test_levelsorder.Class1Test" name="test_2">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.625769" time="0.000000" classname="stock_reminder.tests.test_levelsorder.Class2Test" name="test_1">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.625769" time="0.000994" classname="stock_reminder.tests.test_reader.FileReaderTest" name="test_FileReader_returns_the_file_contents">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.626763" time="0.000000" classname="stock_reminder.tests.test_rule.AndRuleTest" name="test_an_AndRule_matches_if_all_component_rules_are_true">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.626763" time="0.000000" classname="stock_reminder.tests.test_rule.PriceRuleTest" name="test_a_PriceRule_is_False_if_the_condition_is_not_met">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.626763" time="0.000990" classname="stock_reminder.tests.test_rule.PriceRuleTest" name="test_a_PriceRule_is_False_if_the_stock_hasnt_got_an_update_yet">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.627753" time="0.000000" classname="stock_reminder.tests.test_rule.PriceRuleTest" name="test_a_PriceRule_is_False_if_the_stock_is_not_in_the_exchange">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.627753" time="0.000000" classname="stock_reminder.tests.test_rule.PriceRuleTest" name="test_a_PriceRule_matches_when_it_meets_the_condition">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.627753" time="0.000000" classname="stock_reminder.tests.test_rule.PriceRuleTest" name="test_a_PriceRule_only_depends_on_its_stock">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.627753" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_price_of_a_new_stock_class_should_be_None">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.627753" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:1">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.628760" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:2">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.628760" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:3">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.628760" time="0.000301" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:4">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:5">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:6">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:7">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:8">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:9">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:10">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:11">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.629061" time="0.001004" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:12">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:13">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:14">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:15">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:16">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:17">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:18">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:19">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:20">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:21">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:22">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:23">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.630065" time="0.001001" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:24">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:25">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:26">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:27">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:28">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:29">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:30">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.631066" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:31">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632070" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:32">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632070" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:33">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632070" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:34">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632070" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:35">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632070" time="0.000875" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:36">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:37">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:38">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:39">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:40">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:41">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:42">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:43">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:44">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.632945" time="0.000998" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:45">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:46">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:47">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:48">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:49">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:50">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:51">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:52">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:53">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:54">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:55">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:56">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:57">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:58">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.633943" time="0.001001" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:59">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:60">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:61">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:62">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:63">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:64">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:65">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:66">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:67">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:68">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:69">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:70">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:71">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.634944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:72">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.635944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:73">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.635944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:74">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.635944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:75">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.635944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:76">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.636946" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:77">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.636946" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:78">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.636946" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:79">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.636946" time="0.000999" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:80">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.637944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:81">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.637944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:82">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.637944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:83">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.637944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:84">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.637944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:85">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.637944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:86">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.638944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:87">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.638944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:88">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.638944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:89">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.638944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:90">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.638944" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:91">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.638944" time="0.001004" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:92">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.639948" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:93">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.639948" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:94">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.639948" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:95">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.639948" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:96">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.639948" time="0.000997" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:97">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:98">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:99">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_trend_with_all_consecutive_values_upto_100:100">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_stock_trends:1">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_stock_trends:2">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock" name="test_stock_trends:3">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.640945" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_date_to_check_can_be_beyond_last_update_date">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.641945" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_generate_timestamp_handles_multiple_updates_per_date">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.641945" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_generate_timestamp_returns_consecutive_dates">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.641945" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_generate_timestamp_skips_empty_dates">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.641945" time="0.001002" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_should_be_neutral_if_not_enough_days_of_data">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.642946" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_should_have_11_days_worth_of_data">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.642946" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_should_only_look_at_closing_price">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.642946" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_should_pick_up_previous_closing_if_no_updates_for_a_day">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.642946" time="0.000998" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_stock_with_less_data_returns_neutral">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.643944" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_stock_with_no_crossover_returns_neutral">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.643944" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_stock_with_no_data_returns_neutral">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.643944" time="0.001000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_with_downward_crossover_returns_sell">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.000000" classname="stock_reminder.tests.test_stock.StockCrossOverSignalTest" name="test_with_upward_crossover_returns_buy">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.000000" classname="stock_reminder.tests.test_stock.StockTest" name="test_negative_price_should_throw_ValueError">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.000000" classname="stock_reminder.tests.test_stock.StockTest" name="test_price_is_the_latest_even_if_updates_are_made_out_of_order">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.000000" classname="stock_reminder.tests.test_stock.StockTest" name="test_price_of_a_new_stock_class_should_be_None">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.000000" classname="stock_reminder.tests.test_stock.StockTest" name="test_stock_price_should_give_the_latest_price">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.000000" classname="stock_reminder.tests.test_stock.StockTest" name="test_stock_update">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.644944" time="0.001029" classname="stock_reminder.tests.test_stock.StockTrendTest" name="test_increasing_trend_is_false_if_price_decreases">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.645973" time="0.000000" classname="stock_reminder.tests.test_stock.StockTrendTest" name="test_increasing_trend_is_false_if_price_equal">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.645973" time="0.000000" classname="stock_reminder.tests.test_stock.StockTrendTest" name="test_increasing_trend_is_true_if_price_increase_for_3_updates">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.645973" time="0.000000" classname="stock_reminder.tests.test_timeseries.TimeSeriesEqualityTest" name="test_closing_price_list_before_series_start_date">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.645973" time="0.000000" classname="stock_reminder.tests.test_timeseries.TimeSeriesEqualityTest" name="test_timeseries_price_history">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.645973" time="0.000000" classname="stock_reminder.tests.test_timeseries.TimeSeriesTestCase" name="test_closing_price_list_before_series_start_date">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.645973" time="0.000000" classname="stock_reminder.tests.test_stock.having a price method" name="test 0000: should return the price">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.646966" time="0.000000" classname="stock_reminder.tests.test_stock.having a price method" name="test 0001: should return the latest price">
+    <system-out />
+    </testcase>
+  <testcase timestamp="2025-12-10T17:23:51.646966" time="0.000000" classname="stock_reminder.tests.test_stock.having a trend method" name="test 0000: should return True if the last three updates were increasing">
+    <system-out />
+    </testcase>
+  </testsuite>
